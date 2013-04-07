@@ -1,0 +1,23 @@
+[user]
+	name = Anupam Jain
+	email = ajnsit@gmail.com
+[alias]
+  st = status -sb
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  ready = rebase -i @{u}
+  lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since yesterday --author ajnsit
+  purr = pull --rebase
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1420x1078+24+0
+	history-view-vpane-position = 248
+	main-window-view = HistoryView
+	file-view-vpane-position = 78
+
